@@ -84,6 +84,7 @@ li{
     color: var(--blue);
     border-bottom: 3px solid var(--blue);
     border-radius: 72% 28% 77% 23% / 5% 20% 10% 70% ;
+    padding: 0;
     
 }
 
