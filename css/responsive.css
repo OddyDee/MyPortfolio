@@ -1,0 +1,145 @@
+@media only screen and (max-width : 770px) {
+
+    .wrapper-main{
+        margin: 0 1%;
+    }
+}
+
+@media only screen and (max-width : 770px) {
+
+    .header__inner-title{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+   
+    .header__inner-title{
+        font-size: 24px;
+    }
+
+        
+    .header__inner-title{
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width : 300px) {
+    .header__inner-subtitle{
+        letter-spacing: 0;
+        color: var(--white);
+        font-size: 20px;
+    }
+    
+    
+    .header__inner-title{
+        font-size: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+
+    .rects-items{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width : 910px) {
+
+    .rects{
+        margin: 0 15% 0 15%;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+    .rects-items{
+        margin: 5%;
+    }
+    .rect-icons{
+        font-weight: 700;
+        font-size: 18px;
+        padding: 5px;
+    }
+    
+    .rects__items > p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+
+    .wrapper .icon {
+        margin: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+      }
+      
+      .wrapper .tooltip {
+        padding: 2px 5px;
+      }
+    
+}
+
+@media only screen and (max-width : 300px) {
+
+    .wrapper .icon {
+        margin: 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+      }
+      
+      .wrapper .tooltip {
+        padding: 2px 3px;
+        font-size: 9px;
+      }
+    
+}
+
+@media only screen and (max-width : 480px) {
+
+    .content-inner{
+        font-size: 20px;
+    }
+    
+    
+    .content-description{
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width : 365px) {
+
+    .content-inner{
+        font-size: 18px;
+    }
+    
+    
+    .content-description{
+        font-size: 14px;
+        line-height: 1.2;
+    }
+}
+
+
+
+@media only screen and (max-width : 580px) {
+
+    .expiriens-error{
+        font-weight: 700;
+    }
+     
+    .four{
+        font-size: 7rem;
+  }
+    
+}
+

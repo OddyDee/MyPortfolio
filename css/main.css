@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+	/* COLORS */
+    --yellow: #fff4c5;
+	--white: #fffbf7;
+	--gray: #f1f1f1;
+	--blue: #99cae5;
+    --black: #2f2f2fe7;
+}
+body{
+    background: var(--gray);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.wrapper-main{
+    margin: 0 10%;
+}
+
+ul{
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 18px;
+}
+
+.link:hover{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    color: var(--white);
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(32, 32, 32, 0.507), rgba(42, 42, 42, 0.918)), url(../img/header3.png);
+	height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header__content-logo{
+    border: 4px solid var(--blue);
+    border-radius: 0 20px 0 20px;
+    align-self: center;
+    width: 72px;
+    height: 72px;
+    padding: 3px;
+    
+}
+
+.logo-title{
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Saira Condensed', sans-serif;
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+    border-radius: 72% 28% 77% 23% / 5% 20% 10% 70% ;
+    
+}
+
+.Code{
+    color: var(--black);
+    background: var(--blue);
+    border-radius: 72% 28% 0% 23% / 25% 79% 21% 75% ;
+    padding: 3px;
+    align-self: flex-start;
+}
+
+.header__inner-subtitle{
+    letter-spacing: 2px;
+    color: var(--white);
+    font-size: 22px;
+}
+
+
+.header__inner-title{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 6px;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.header__contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-item{
+    color: var(--white);
+    font-size: 25px;
+    border-bottom: 1px solid var(--white);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    padding-top: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.contact-item:hover{
+    background: rgba(255, 155, 24, 0.171);
+    border-radius: 10px;
+}
+
+
+
+
+
